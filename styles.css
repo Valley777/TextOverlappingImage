@@ -1,0 +1,70 @@
+* {background-color: none;}
+div.fixed{
+    margin: 0px;
+    position: absolute;
+    padding-left: 500px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: yellowgreen;
+    height: 25%;
+    width: 50%;
+    text-align: right;
+    border: 10px dotted;
+    border-color: purple;
+}
+    div.container {
+    background: url(images/transparent.png) repeat;
+    position: relative;
+    padding-top: 0px:
+    margin:0;
+    width: 1000px;
+    height: 900px;
+    border: 10px dashed;
+    border-color: yellow;
+    border-radius:10px ;
+    opacity:0.8;
+
+   
+  }
+  
+  div.transbox {
+    margin: 70px;
+    padding: 20px 70px;
+    background-color:none;
+    border:5px dotted gray;
+   
+    opacity: 0.8;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    border: 5px;
+    border-color: blueviolet;
+
+  }
+
+
+  div.ext1{
+    margin:0;
+   width: 500px;
+   height: 20px;
+   background-color: blueviolet;
+   position: relative;
+   border: 5px;
+   border-color: green;
+   border-radius: 10px;
+
+  }
+
+  div.ext2{
+    margin:0px;
+   max-width: 500px;
+   background-color: yellow;
+   height: 20px;
+   position:relative;
+   border-color: bisque;
+   border: 5px;
+   border-radius: 10px;
+  }

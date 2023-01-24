@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project 4</title>
+        <link rel="stylesheet" href="styles.css" >
+        <link rel="icon" href="images/favicon.ico">
+        <meta name="viewport " content="width=device-width, initial-scale=1 ">
+        <script type="text/javascript" src="main.js"></script>
+
+    </head>
+    <body>
+        <div class="fixed">Fixed Container</div>
+
+
+        <div class="container">
+            <div class="transbox">
+              <p>This is some text that is placed in a transparent box.</p>
+            </div>
+          </div>
+
+        <p><strong>Tip:</strong> check the differenece between the width and max width.</p>
+        
+        <!--max-width-->
+        <div class="ext1">
+         This div has width 500.
+        </div>
+        <div class="ext2">
+           This div has max width 500.
+        </div>
+<!---Positions: 
+    1. static- dafault position, i.e. position: static;
+    2. relative-to default position, i.e. position: relative; 
+    3. fixed- position: fixed; is positioned relative to the viewport, 
+    which means it always stays in the same place even if the page is scrolled, i.e. position: fixed; 
+    4. absolute - is positioned relative to the nearest positioned ancestor 
+    (instead of positioned relative to the viewport, like fixed), position: absolute; 
+    5. sticky- is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport
+ - then it "sticks" in place (like position:fixed), position: sticky->
+
+ <!-Position text over an image: position is with div container w/h class(position:relative), the text(position:absolute)-->
+
+
+<!---Z- Indexs-Property-When elements are positioned, they can overlap other elements.The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+     An element can have a positive or negative stack order. Note: z-index only works on positioned elements (position: absolute, position: relative, 
+     position: fixed, or position: sticky) and flex items 
+     (elements that are direct children of display: flex elements).--->
+
+
+
+
+    </body>
+</html>
